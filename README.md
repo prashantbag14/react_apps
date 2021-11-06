@@ -9,3 +9,5 @@
 6. To access the features of the application you need to login first. And for that you need to signup first
 7. after signing up ,again "logout" and do "SignIn".
 8. Now you'll be able to access all the features of the application.
+9. Some of the features are displayed using the firebase cloud storage.
+
