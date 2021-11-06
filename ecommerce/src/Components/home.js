@@ -1,9 +1,11 @@
-import React,{useContext} from 'react';
+import React,{useContext, useState} from 'react';
 import Carousel from 'react-elastic-carousel';
 import Item from './Item';
 
 
 const Home=(props)=>{
+
+    const [newlink,setNewLink]=useState();
 
 const currentuser=props;
     const breakPoints=[
@@ -13,6 +15,11 @@ const currentuser=props;
         {width:1200,itemToShow:4},
 
     ];
+
+    const getexplore=()=>{
+        currentuser.newuser!=null ? 
+        setNewLink("https://www.apollo247.com/"):alert("Please Login First");
+    }
 
     return (<div>
                
@@ -30,7 +37,7 @@ const currentuser=props;
             <h2 className="apollotext" >
         <span> <strong className="text-warning">Apollo 24/7 </strong></span>THE GREATEST OF ALL.
     </h2>
-    <button className="btn btn-dark text-white explorebtn"><a href="https://www.apollo247.com/" className="text-decoration-none text-white">Explore</a></button>
+    <button className="btn btn-dark text-white explorebtn" onClick={e=>getexplore(e)}><a href={newlink} className="text-decoration-none text-white">Explore</a></button>
     <p className="text-warning pb-lg-4 text-center" >
     Fastest Growing Health Care Company with all health services.</p>
     </div>
