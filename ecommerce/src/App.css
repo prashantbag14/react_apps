@@ -1,0 +1,199 @@
+*{
+  margin:0;
+}
+
+.app-header{
+  object-fit: contain;
+  padding: 20px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+ 
+
+}
+
+.app_header{
+  position: sticky;
+  top:0;
+  z-index: 1;
+  object-fit: contain;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+}
+.card-img-top{
+  border-radius: 240px;
+  height: 120px;
+  padding:20px 20px 20px 20px;
+ 
+}
+
+
+.fa-shopping-cart{
+  font-size: 36px;
+  float: right;
+  padding: 7px;
+}
+.avvatar{
+    border-radius: 80px;
+    float: right;
+   
+
+}
+.packages-list{
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+
+a{
+
+  color: white;
+}
+
+.item-price{
+    margin-top: 39px;
+}
+
+#package-divider{
+    border: 1px solid yellow;
+    width: 100%;
+}
+
+.packagecard{
+  background-color: rgb(54, 99, 151);
+  width:22rem;
+  height:14rem;
+  margin-right: 20px;
+  padding:20px;
+
+}
+   
+hr{
+  color:rgb(250, 214, 10);
+   border: 2px solid ;
+    width:115px;
+   
+}
+
+.joinus{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 120px;
+}
+
+
+.apollotext{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-left: 120px;
+}
+
+.mainimg{
+  background-image: url("https://www.sitel.com/wp-content/uploads/2020/02/healthcare-banner.jpg");
+ object-fit: contain;
+}
+
+.carouselitems{
+    display: flex;
+   
+}
+.servicecard{
+    padding-left: 150px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.why-card{
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.whyapollo-div{
+
+ 
+  margin-bottom: 20px;
+}
+
+
+.whycard-text{
+  margin-right: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 90px;
+  
+}
+
+.whycardnumber-text{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.whycardinner-text{
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.whycard-img{
+  border-radius: 240px;
+  height: 150px;
+  padding:20px 20px 20px 20px;
+  
+}
+
+.carouselimg{
+  object-fit:inherit;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+
+.services{
+    margin-right: 20px;
+    height: 200px;
+    box-shadow: rgb(107, 73, 73);
+    width:9rem;
+    height:13rem;
+
+}
+
+.explorebtn{
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+
+.cardarea{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-bg{
+
+  background-color: black;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; 
+  
+}
+
+.app-content{
+ 
+  justify-content: center;
+
+}
+
+.app_signup{
+  display: flex;
+  flex-direction: column;
+
+}
